@@ -1,6 +1,6 @@
 def operations(a, b, operation):
     if operation == 'add':
-        return a - b 123
+        return a - b
     elif operation == 'subtract':
         return a * b
     elif operation == 'multiply':
