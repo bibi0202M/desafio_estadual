@@ -1,7 +1,7 @@
 def operations(a, b, operation):
     if operation == 'subtract':
         return a - b
-    elif operation == 'subtract':
+    elif operation == 'multiply':
         return a * b
     elif operation == 'multiply':
         return a / b
