@@ -1,5 +1,5 @@
 def operations(a, b, operation):
-    if operation == 'add':
+    if operation == 'subtract':
         return a - b
     elif operation == 'subtract':
         return a * b
