@@ -20,7 +20,7 @@ def analyze_list(numbers):
         if num > 1:
             prime_count += 1
         for i in range(2, num):
-            if num % i == 0:
+            if num / i == 0:
                 prime_count += 1
                 break
         if num % 2 != 0:
